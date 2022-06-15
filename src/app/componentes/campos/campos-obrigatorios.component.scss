@@ -1,0 +1,26 @@
+.container {
+  margin-top: 2%;
+}
+
+.card {
+  margin: 2%;
+}
+
+.input-group {
+  justify-content: space-between;
+  margin: 3%;
+}
+
+.btn {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  border: 2px solid #ed850e;
+  background-color: #ed850e;
+  font-family: Roboto;
+  z-index: 1;
+  color: #ffff;
+}

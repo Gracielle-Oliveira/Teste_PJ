@@ -1,0 +1,26 @@
+<div class="btn">
+  <button type="button" class="btn btn-primary" [routerLink]="['/campos']">Cadastrar</button>
+</div>
+
+<div class="card">
+
+  <table>
+    <thead>
+      <tr>
+        <th> Nome </th>
+        <th> CPF </th>
+        <th> Telefone </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let info of retorno">
+        <td> {{info.nome}} </td>
+        <td> {{info.cpf}} </td>
+        <td> {{info.telefone}} </td>
+        <td>  
+        <button type="button" class="btn2 btn-primary" (click)="apagar()">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
